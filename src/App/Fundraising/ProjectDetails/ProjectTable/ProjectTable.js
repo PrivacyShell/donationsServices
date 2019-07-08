@@ -5,12 +5,12 @@ import data from '../../../../App/shared/data/projectsData.json';
 
 const columns = [
   {
-    title: 'Investors',
+    title: 'Transaction Proof',
     dataIndex: 'id',
     key: 'id',
   },
   {
-    title: 'Amount',
+    title: 'Value ($)',
     dataIndex: 'amount',
     key: 'amount',
     sorter: (a, b) => a.amount - b.amount,

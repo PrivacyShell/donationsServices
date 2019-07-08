@@ -1,4 +1,3 @@
-import gql from 'graphql-tag';
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -54,9 +53,9 @@ const Projects = () => {
                     <Link to={`/fundraising/project/${campaign.id}`}>
                       <InvestorButton>Investors</InvestorButton>
                     </Link>
-                    <Link to={`/distribution/project/${campaign.id}`}>
+                    {/* <Link to={`/distribution/project/${campaign.id}`}>
                       <DistributionButton>Distribution</DistributionButton>
-                    </Link>
+                    </Link> */}
                   </Project>
                 ))}
               </ProjectsContainer>
