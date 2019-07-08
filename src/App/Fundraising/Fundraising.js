@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import data from '../../../src/App/shared/data/projectsData.json';
 
 // import Dashboard from './Dashboard';
-// import Details from './ProjectDetails';
+import ProjectDetails from './ProjectDetails';
 import Navigation from '../shared/components/Navigation';
 import DashboardHeader from '../Projects/DashboardHeader';
 
@@ -12,28 +12,43 @@ const Container = styled.div`
   margin: 0 auto;
   max-width: 1200px;
   width: 90%;
-  border-bottom: 2px solid black;
+`;
+
+const ContainerWithBorder = styled.div`
+  margin: 20px auto;
+  max-width: 1200px;
+  width: 90%;
+  border-top: 2px solid #4854A1;
 `;
 
 const Subtitle = styled.h3`
   font-size: 2rem;
   font-weight: 900;
+  color: #fff;
 `;
 
 const TimePeriod = styled.p`
   font-size: 1.6rem;
   margin-bottom: 50px;
+  color: #4854A1;
 `;
 
 const Title = styled.h3`
   font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 5px;
+  color: #fff;
 `;
 
 const Desc = styled.p`
   font-size: 1.4rem;
-  color: #a9a8a8;
+  color: #4854A1;
+`;
+
+const Disclaimer = styled.p`
+  font-size: 1.4rem;
+  color: #fff;
+  margin-top: 5px;
 `;
 
 const InfoContainer = styled.div`
@@ -55,6 +70,11 @@ const MainInfoContainer = styled.div`
   display: flex;
   width: 85%;
   margin: 0 auto;
+`;
+
+const TableContainer = styled.div`
+  width: 80%;
+  margin: 50px auto;
 `;
 
 
@@ -100,9 +120,14 @@ const Fundraising = (props) => {
               </InfoSection>     
             </InfoContainer>
             {/* <Dashboard data={data} /> */}
-            {/* <Details data={data} /> */}
           </MainInfoContainer>
-        </Container>   
+        </Container>
+        <ContainerWithBorder>
+          <Disclaimer>*Please note that all $ values correspond to your Countries' currency created by Donations.Services which is pegged to the US Dollar</Disclaimer>   
+        </ContainerWithBorder>
+        <TableContainer>
+          <ProjectDetails data={data} id={props.match.params.id} />
+        </TableContainer>
       </Fragment>
     );
   });

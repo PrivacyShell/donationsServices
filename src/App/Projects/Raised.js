@@ -9,7 +9,7 @@ const Raised = styled.h2`
 
   span {
     font-size: 1.6rem;
-    color: #fff;
+    color: #091D40;
   }
 `;
 

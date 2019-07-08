@@ -1,5 +1,4 @@
 import { Table } from 'antd';
-import PropTypes from 'prop-types';
 import React from 'react';
 
 import data from '../../../../App/shared/data/projectsData.json';
@@ -26,17 +25,13 @@ const columns = [
 ];
 
 const ProjectTable = (props) => {
-  console.log(props, "inv");
-
-  // return <Table dataSource={investments} columns={columns} rowKey="id" />;
-};
-
-ProjectTable.propTypes = {
-  data: PropTypes.object,
-};
-
-ProjectTable.defaultProps = {
-  data: {},
-};
+  return data.map(campaign => {
+  if(props.idprops === campaign.id)
+    
+    return (
+      <Table dataSource={campaign.investments} columns={columns} rowKey="id" />
+      );
+    });
+  };
 
 export default ProjectTable;

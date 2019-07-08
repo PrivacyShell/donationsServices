@@ -30,11 +30,19 @@ const Test = styled.h2`
   color: #091D40;
 `;
 
+const Span = styled.span`
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: #F3BB65;
+`;
+
 const Navigation = ({ title }) => (
     <Nav>
       <Container>
         <BackButton />
-        <Title><Test>Donations Services</Test></Title>
+        <Title><Test>Donations <Span>Services</Span></Test></Title>
       </Container>
     </Nav>
 );

@@ -84,6 +84,12 @@
     "inveStone": "4,000,000",
     "raised": "1,400,000",
     "spent": 1092,
+    "sectors": 2,
+    "topSector": "68,000",
+    "dailyActivity": "205",
+    "usersPopulation": "73",
+    "gvtTax": "0.8",
+    "gdbGrowth": "1.1",
     "goal": 2340,
     "image": "mawugu",
     "investments": [
@@ -278,6 +284,12 @@
     "inveStone": "10,000,000",
     "raised": "2,000,000",
     "spent": 480,
+    "sectors": 1,
+    "topSector": "108,000",
+    "dailyActivity": "317",
+    "usersPopulation": "87",
+    "gvtTax": "0.7",
+    "gdbGrowth": "0.4",
     "image": "amakon",
     "investments": [
       {
@@ -565,6 +577,12 @@
     "inveStone": "2,000,000",
     "raised": "30,0000",
     "spent": 202,
+    "sectors": 3,
+    "topSector": "3,000",
+    "dailyActivity": "35",
+    "usersPopulation": "7",
+    "gvtTax": "0.2",
+    "gdbGrowth": "0.1",
     "image": "agricred",
     "investments": [
       {
@@ -684,6 +702,12 @@
     "inveStone": "7,000,000",
     "raised": "1,500,000",
     "spent": 181,
+    "sectors": 5,
+    "topSector": "54,500",
+    "dailyActivity": "98",
+    "usersPopulation": "33",
+    "gvtTax": "0.4",
+    "gdbGrowth": "0.2",
     "image": "deliverla",
     "investments": [
       {

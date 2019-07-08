@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const DashboardHeader = styled.h2`
   font-size: 3rem;
   color: #fff;
-  padding-top: 150px;
+  padding-top: 120px;
   &::after {
     content: '';
     border-bottom: 2px solid #4854A1;
