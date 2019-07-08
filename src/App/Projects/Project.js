@@ -12,6 +12,7 @@ const Project = styled.div`
   flex-direction: column;
   align-items: center;
   min-height: 480px;
+  background-color: #fff;
   position: relative;
   text-align: center;
   transition: 200ms;

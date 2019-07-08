@@ -8,7 +8,13 @@
     "description": "Investments from Foreign Aid, Government and NGOs",
     "inveStone": "1,000,000",
     "raised": "600,000",
-    "spent": 200000,
+    "spent": "200000",
+    "sectors": 4,
+    "topSector": "23,000",
+    "dailyActivity": "135",
+    "usersPopulation": "27",
+    "gvtTax": "0.7",
+    "gdbGrowth": "0.1",
     "image": "solar",
     "investments": [
       {

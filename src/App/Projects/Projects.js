@@ -23,8 +23,6 @@ import ProjectName from './ProjectName';
 import Raised from './Raised';
 
 const Projects = () => {
-
-  // render() {
     const campaigns = data.map(campaign => {
       return campaign;
     });
@@ -65,9 +63,6 @@ const Projects = () => {
             </Container>
           </Fragment>
         );
-      }
-    // }}
-  // </Query>
-// };
+      };
 
 export default Projects;

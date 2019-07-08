@@ -21,7 +21,7 @@ const Chart = ({ data }) => {
         <XAxis dataKey="name" />
         <YAxis dataKey="amount" />
         <Tooltip />
-        <Bar type="monotone" dataKey="amount" fill="#f18f35" />
+        <Bar type="monotone" dataKey="amount" fill="#4854A1" />
       </BarChart>
     </ResponsiveContainer>
   );

@@ -7,14 +7,14 @@ const DistributionButton = styled.div`
   width: 50%;
   padding: 3% 0;
   border-bottom-right-radius: 5px;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
-  background: #f1f1f1;
-  border: 2px solid #000;
+  background: #4854A1;
+  border: 2px solid #fff;
 
   &:hover {
     cursor: pointer;
-    color: #f18f35;
+    color: #091D40;
   }
 `;
 

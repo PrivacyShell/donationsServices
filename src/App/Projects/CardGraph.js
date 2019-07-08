@@ -3,7 +3,7 @@ import React from 'react';
 import { PieChart, Pie, Cell } from 'recharts';
 
 const data = [{ name: 'Group A', value: 400 }];
-const COLORS = ['#f1f1f1', '#F18F35'];
+const COLORS = ['#f1f1f1', '#4854A1'];
 
 const CardGraph = () => (
   <PieChart width={850} height={300}>
@@ -30,7 +30,7 @@ const CardGraph = () => (
       endAngle={-160}
       innerRadius={72}
       outerRadius={80}
-      fill="#F18F35"
+      fill="#4854A1"
       paddingAngle={5}
     >
       {data.map((entry, index) => (

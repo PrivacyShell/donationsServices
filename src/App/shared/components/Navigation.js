@@ -7,7 +7,11 @@ import Title from './Title';
 const Nav = styled.nav`
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1% 0;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 `;
 
 const Container = styled.nav`
@@ -23,6 +27,7 @@ const Test = styled.h2`
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
+  color: #091D40;
 `;
 
 const Navigation = ({ title }) => (

@@ -34,12 +34,4 @@ const Dashboard = ({ data }) => (
   </Fragment>
 );
 
-Dashboard.propTypes = {
-  data: PropTypes.object,
-};
-
-Dashboard.defaultProps = {
-  data: {},
-};
-
 export default Dashboard;

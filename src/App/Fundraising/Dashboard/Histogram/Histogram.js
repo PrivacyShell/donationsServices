@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import React from 'react';
+
 import {
   CartesianGrid,
   Line,
@@ -12,7 +12,7 @@ import {
 
 const Histogram = ({ data }) => {
   const { investments } = data.getProject;
-
+  
   const dates = {};
 
   investments.forEach((investment) => {
@@ -33,18 +33,10 @@ const Histogram = ({ data }) => {
         <XAxis dataKey="dateTime" />
         <YAxis dataKey="amount" />
         <Tooltip />
-        <Line type="monotone" dataKey="amount" stroke="#f18f35" />
+        <Line type="monotone" dataKey="amount" stroke="#4854A1" />
       </LineChart>
     </ResponsiveContainer>
   );
-};
-
-Histogram.propTypes = {
-  data: PropTypes.object,
-};
-
-Histogram.defaultProps = {
-  data: {},
 };
 
 export default Histogram;

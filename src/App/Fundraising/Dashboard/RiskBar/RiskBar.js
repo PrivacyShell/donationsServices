@@ -10,11 +10,11 @@ const RiskBar = () => {
   return (
     <div style={{ padding: '0% 0%' }}>
       <RiskHeader>Venture Type</RiskHeader>
-      <Progress percent={65} showInfo={true} strokeColor={'#f18f35'} strokeWidth={30} />
+      <Progress percent={65} showInfo={true} strokeColor={'#4854A1'} strokeWidth={30} />
       <RiskHeader>Credentials</RiskHeader>
-      <Progress percent={80} showInfo={true} strokeColor={'#f18f35'} strokeWidth={30} />
+      <Progress percent={80} showInfo={true} strokeColor={'#4854A1'} strokeWidth={30} />
       <RiskHeader>Initial Capital</RiskHeader>
-      <Progress percent={45} showInfo={true} strokeColor={'#f18f35'} strokeWidth={30} />
+      <Progress percent={45} showInfo={true} strokeColor={'#4854A1'} strokeWidth={30} />
     </div>
   );
 };

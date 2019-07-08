@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  body {
+    background-color: #091D40 !important;
+  }
+
   html {
     margin: 0;
     padding: 0;

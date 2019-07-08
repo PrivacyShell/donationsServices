@@ -60,7 +60,7 @@ const InveStoneHeader = styled.h2`
   font-size: 3rem;
   &::before {
     content: '';
-    border-bottom: 2px solid #f18f35;
+    border-bottom: 2px solid #4854A1;
     position: relative;
     left: 0;
     bottom: 0;
@@ -125,7 +125,7 @@ const Goal = ({ match }) => {
                 <XAxis dataKey="dateTime" />
                 <YAxis dataKey="amount" />
                 <Tooltip />
-                <Line type="monotone" dataKey="amount" stroke="#f18f35" />
+                <Line type="monotone" dataKey="amount" stroke="#4854A1" />
               </LineChart>
             </ResponsiveContainer>
 

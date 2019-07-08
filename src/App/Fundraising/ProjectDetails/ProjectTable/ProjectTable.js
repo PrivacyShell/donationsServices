@@ -2,6 +2,8 @@ import { Table } from 'antd';
 import PropTypes from 'prop-types';
 import React from 'react';
 
+import data from '../../../../App/shared/data/projectsData.json';
+
 const columns = [
   {
     title: 'Investors',
@@ -23,10 +25,10 @@ const columns = [
   },
 ];
 
-const ProjectTable = ({ data }) => {
-  const { investments } = data.getProject;
+const ProjectTable = (props) => {
+  console.log(props, "inv");
 
-  return <Table dataSource={investments} columns={columns} rowKey="id" />;
+  // return <Table dataSource={investments} columns={columns} rowKey="id" />;
 };
 
 ProjectTable.propTypes = {
